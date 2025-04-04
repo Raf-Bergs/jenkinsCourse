@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class GoedeDoel {
     private final String naam;
-    private BigDecimal opbrengst;
-//	private BigDecimal opbrengst = BigDecimal.ZERO;
+    //    private BigDecimal opbrengst;
+    private BigDecimal opbrengst = BigDecimal.ZERO;
 
     public GoedeDoel(String naam) {
         this.naam = naam;
